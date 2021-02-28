@@ -45,11 +45,6 @@ h1{
     padding: 3%;
     background-color: aliceblue;
 }
-.footer{
-    position: absolute;
-    bottom: 0;
-}
-
 .social-icons{
     margin: 20px 10px;
 }

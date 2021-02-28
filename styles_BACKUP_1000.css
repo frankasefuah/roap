@@ -42,8 +42,12 @@ h1{
 }
 /* Footer Section */
 .footer-base{
+<<<<<<< HEAD
+    padding: 1%;
+=======
     padding: 3%;
     background-color: aliceblue;
+>>>>>>> 60b78749d48ffe248e2315e6287728090798ba13
 }
 .footer{
     position: absolute;
