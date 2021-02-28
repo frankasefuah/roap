@@ -5,8 +5,13 @@
 }
 
 .footer-base{
-    padding: 3%;
+    padding: 1%;
 }
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
 .social-icons{
     margin: 20px 10px;
 }
