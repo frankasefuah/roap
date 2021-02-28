@@ -1,15 +1,50 @@
+#title{
+    background-color: #4a47a3;
+    padding: 1.5%;
+}
+h1{
+    color: white;
+}
+
 .flags{
     margin-right: 5px;
     margin-left: 2px;
     border-radius: 10px;
 }
+.margin-topNBottom{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
+.button-purple{
+    background-color: #a7c5eb;
+    color: #4a47a3;
+}
+.button-purple:hover{
+    background-color: #413c69;
+    color: #a7c5eb;
+}
+
+
+/* Testimonial Section */
+#testimonials{
+    background-color: #709fb0;
+    text-align: center;
+}
+.testimonial-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.testimonial-text{
+    text-align: justify;
+    margin-bottom: 3%;
+}
+/* Footer Section */
 .footer-base{
     padding: 3%;
+    background-color: aliceblue;
 }
 .social-icons{
     margin: 20px 10px;
-}
-.testimonial-img{
-    border-radius: 50%;
 }
