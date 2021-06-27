@@ -1,11 +1,13 @@
-#title{
-    background-color: #4a47a3;
-    padding: 1.5%;
-}
 h1{
     color: white;
 }
 
+/* INDEX/HOME PAGE */
+.title{
+    background-color: #4a47a3;
+    padding: 1%;
+    margin-bottom: 1%;
+}
 .flags{
     margin-right: 5px;
     margin-left: 2px;
@@ -52,4 +54,20 @@ h1{
 
 .social-icons{
     margin: 20px 10px;
+}
+
+/* Forms */
+.form-container {
+    background-color: #a7c5eb;
+    border-radius: 4rem;
+    padding: 2% 10%;
+    margin: 2% 20%;
+    line-height: 2;
+}
+.form-headers{
+    color:#413c69;
+}
+.form-btns{
+    text-align: center;
+    padding-top: 3%;
 }
