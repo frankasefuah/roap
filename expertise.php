@@ -820,7 +820,7 @@
                 </div>
             </div>
             <div class="row">
-                    <div class="form-group form-btns">
+                    <div class="mb-3 form-btns">
                         <button type="button" class="btn btn-success btn-lg to-experience"><i class="fas fa-arrow-left fa-xs"></i> Previous section</button>
                         <button type="submit" class="btn btn-success btn-lg to-publications">Next section <i class="fas fa-arrow-right fa-xs"></i></button>
                     </div>

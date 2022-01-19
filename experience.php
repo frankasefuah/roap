@@ -27,21 +27,21 @@
             </div>
             <form action="" class="">
                 <div class="row">
-                    <div class="form-group col-xl-6">
+                    <div class="mb-3 col-xl-6">
                         <label for="occupation">Occupation</label>
                         <input type="text" name="occupation" class="form-control" id="">
                     </div>
-                    <div class="form-group col-xl-6">
+                    <div class="mb-3 col-xl-6">
                 <label for="organisationName">Organisation Name</label>
                 <input type="text" name="organisationName" class="form-control" id="">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="form-group form-btns">
+                    <div class="mb-3 form-btns">
                         <button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-plus fa-xs"></i> Add another experience</button>
                     </div>
-                    <div class="form-group form-btns">
+                    <div class="mb-3 form-btns">
                         <button type="button" class="btn btn-success btn-lg to-academic"><i class="fas fa-arrow-left fa-xs"></i> Previous section</button>
                         <button type="button" class="btn btn-success btn-lg to-expertise">Next section <i class="fas fa-arrow-right fa-xs"></i></button>
                     </div>

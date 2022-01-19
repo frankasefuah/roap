@@ -27,30 +27,30 @@
             </div>
             <form action="" class="">
                 <div class="row">
-                    <div class="form-group col-md-4">
+                    <div class="mb-3 col-md-4">
                         <label>Degree Level</label>
-                        <select name="degreeLevel" id="" class="form-control" aria-label="select degree level">
+                        <select name="degreeLevel" id="" class="form-select" aria-label="select degree level">
                             <option disabled selected>Select One</option>
                             <option value="bachelors">Bachelors</option>
                             <option value="masters">Masters</option>
                             <option value="Doctrate">Doctrate</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-8">
+                    <div class="mb-3 col-md-8">
                         <label for="fieldOfStudy">Field of Study</label>
                         <input type="text" name="fieldOfStudy" class="form-control" id="">
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="mb-3">
                     <label for="institutionName">Instituation Name</label>
                     <input type="text" name="institutionName" class="form-control" id="">
                 </div>
 
                 <div class="row">
-                    <div class="form-group form-btns">
+                    <div class="mb-3 form-btns">
                         <button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-plus fa-xs"></i> Add another qualificaiton</button>
                     </div>
-                    <div class="form-group form-btns">
+                    <div class="mb-3 form-btns">
                         <button type="button" class="btn btn-success btn-lg to-language"><i class="fas fa-arrow-left fa-xs"></i> Previous section</button>
                         <button type="button" class="btn btn-success btn-lg to-experience">Next section <i class="fas fa-arrow-right fa-xs"></i></button>
                     </div>

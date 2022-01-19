@@ -6,6 +6,9 @@ $(document).ready(function () {
 
     /* BUTTONS AND LINK REDIRECTIONS*/
     // redirect to sign up page
+    $(".to-home").click(function () {
+        window.location = index.php;
+    });
     $(".to-sign-up").click(function () {
         window.location = "signup.php";
     });
@@ -62,11 +65,15 @@ $(document).ready(function () {
     }
 
     /* Langugae proficiency*/
+    // show added language list
+    $("#show-added-langs").click(function (){
+        $(".added-lang").removeClass("d-none");
+    });
+    // alt language page
     // Language proficiency list
     $.each(["Very Well", "Well", "Fair"], function (key, value) {
         $(".language-proficiency-list").append($("<option></option>").attr("value", value).text(value));
     });
-    // alt language page
     // add new row
     $("#alt-add-lang").click(function () {
         var cloneLang = $("#lang-row-1").clone().prop('id', "");

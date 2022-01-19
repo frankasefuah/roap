@@ -25,7 +25,7 @@
             </div>
             <form action="" class="">
                 <div class="justify-content-center row">
-                    <div class="form-group col-lg-8">
+                    <div class="mb-3 col-lg-8">
                         <label for="researchInterest">Research Interests</label>
                         <textarea name="researchInterest" class="form-control" id="" cols="30" rows="10"></textarea>
                         <small><em>(separate research interests with a comma if you have more than one)</em></small>
@@ -33,14 +33,14 @@
                 </div>
                 <br>
                 <div class="row justify-content-center">
-                    <div class="form-group col-lg-8">
+                    <div class="mb-3 col-lg-8">
                         <label for="numberOfPublications">How many publications do you have in your field of expertise?</label>
                         <input type="number" class="form-control" name="numberOfPublications" min="0" step="1" id="">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="form-group form-btns">
+                    <div class="mb-3 form-btns">
                         <button type="button" class="btn btn-success btn-lg to-expertise"><i class="fas fa-arrow-left fa-xs"></i> Previous section</button>
                         <button type="type" class="btn btn-success btn-lg">Next section <i class="fas fa-arrow-right fa-xs"></i></button>
                     </div>
